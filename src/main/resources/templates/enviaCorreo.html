@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en-US" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<head th:replace="layout :: site-head">
+    <meta charset="utf-8"></meta>
+    <meta http-equiv="Content-Type" content="text/html"></meta>
+    <title>Agrega Inventario</title>
+</head>
+<body>
+<header th:replace="layout :: site-header"/>
+
+<div class="container">
+    <h1>Agrega Inventario</h1>
+    <form action="#" th:action="@{/envio/enviaCorreo}"  method="post">
+
+        <input type="submit" value="Enviar correo" name="enviar"/>
+    </form>
+</div>
+<footer th:replace="layout :: site-footer"/>
+</body>
+</html>
